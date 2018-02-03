@@ -1,0 +1,140 @@
+@media all and (max-width: 1920px) and (min-width: 320px) {
+
+  .header {
+        text-align: center;
+        padding-top: 50px;
+        background: url(../img/background.png);
+        max-width: 100%; 
+    }
+    .icon{
+        padding-top: 35px;
+    }
+    
+    .titles{
+        font-size: 30px;
+        font-family: "PTSans";
+        color: rgb(1, 1, 1);
+        font-weight: bold;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+  .sub_header {
+      padding-top: 15px;
+      font-family: "PTSans";
+      color: rgb(49, 56, 65);
+      text-align: center;
+      font-size: 15px;
+    }
+    
+    .second-icons{
+        padding-top: 45px;
+        width: 100%;
+        height: 135px;
+        text-align: center;
+    }
+     .part-style{
+        padding-top: 30px;
+        font-size: 16px;
+        
+        font-family: "PTSans";
+        color: rgb(137, 137, 137);
+    }
+     h4{
+        margin-top: 20px;  
+        font-size: 22px;
+        font-family: "PTSans";
+        color: rgb(1, 1, 1);
+        line-height: 1.091;
+    }
+     .footer-title{
+        font-size: 30px;
+        font-family: "PTSans";
+        color: rgb(1, 1, 1);
+        font-weight: bold;
+        text-align: center;
+        padding-top: 30px;
+        color: yellow;
+    }
+    
+    .footer-text{
+        padding-top: 25px;
+        font-family: "PTSans";
+        color: rgb(49, 56, 65);
+        text-align: center;
+        font-size: 19px;
+        color: white;
+    }
+    .submit {
+        margin-top: 20px;
+        
+    }
+    
+    input[type=button] {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 25px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        
+    }
+    
+    .footer{
+        margin-top: 20px;
+        background-color: black;
+        height: 820px;
+    }
+    
+    
+    .footer-parts{
+        margin-top: 20px; 
+        color: white;
+        text-align: center;
+    }
+}
+@media all and (max-width: 400px) and (min-width: 320px){   
+  
+     .tablet{
+        margin-top: 50px;
+        
+    }
+    .footer{
+        margin-top: 20px;
+        background-color: black;
+        height: 820px;
+    }
+
+}
+
+@media all and (min-width:410 and  max-width: 768px)  {
+   
+    
+    
+    
+    .tablet{
+        margin-top: 30px;
+    }
+    .footer{
+        margin-top: 20px;
+        background-color: black;
+        height: 520px;
+    }
+    
+}
+@media all and (max-width: 1920px) and (min-width: 768){
+    .tablet{
+        margin-top: 300px;
+    }
+    .footer{
+        margin-top: 20px;
+        background-color: black;
+        height: 420px;
+    }
+}
+
+

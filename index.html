@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <title>TinyOne</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+
+    <!-- Load Bootstap CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/style.css">
+
+         <script src="lang.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+    <!--Header-->
+    <div class="header-container">
+        <div class="header col-12">
+            <img src="img/fingerprint.png">
+            <img src="img/Brandname.png">
+            <br>
+            <br>
+            <button class="translate" id="en">English</button>
+                <button class="translate" id="ro">Romana</button>
+            <div class="icon ">
+                <i class="fa fa-facebook-official fa-lg"></i>
+                <i class="fa fa-google-plus-official fa-lg"></i>
+                <i class="fa fa-twitter fa-lg"></i>
+                <i class="fa fa-pinterest fa-lg"></i>
+            </div>
+            <div class=" titles lang" key="titleslide1">
+                Inspire your inspiration
+            </div>
+            <div class="sub-header lang" key="paragraphslide1">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </div>
+            <div class="second-icons">
+                <img src="img/icon-fa-apple.png ">
+                <img src="img/icon-fa-android.png">
+                <img src="img/icon-fa-windows.png">
+            </div>
+        </div>
+        <!--Main-->
+        <div class="col-12">
+            <div class="titles lang" key="titleslide2">
+                    <h3>Tinyone feutures</h3>
+                
+            </div>
+            <div class="sub-header lang" key="paragraphslide2">
+                <center>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</center>
+            </div>
+            <div class="row">
+                <div class="tablet col-md-8 col-xl-7">
+                    <center><img src="img/iPad%20Mini%20white.png"></center>
+                </div>
+                <div class="part-style col-md-4 col-xl-5 lang" key="paragraph1">
+                    <h4 >Fully Responsive</h4>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown prsinter took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                </div>
+
+                <div class="part-style col-md-4 col-xl-4 lang" key="paragraphall3">
+                    <h4>HTML3 & CSS3</h4>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </div>
+                <div class="part-style col-md-4 col-xl-4 lang" key="paragraphall3">
+                    <h4>Font Awesome Icons</h4>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </div>
+                <div class="part-style col-md-4 col-xl-4 lang" key="paragraphall3">
+                    <h4>Free to download</h4>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </div>
+            </div>
+        </div>
+        <!--Footer-->
+
+        <div class="footer col-12">
+            <div class="footer-title lang" key="titleslide3">
+                Keep in touch with us
+            </div>
+            <div class="footer-text lang" key="paragraphslide3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </div>
+            <div class="submit">
+                <center><input type="text" name="email" value="Enter your email">
+                    <button type="button">Submit</button></center>
+            </div>
+            <div class="row">
+                <div class="footer-parts  col-md-4 col-xl-2">
+                    HALOVIETNAM LTD 66<br> Dang Van ngu<br> Dong Da Hanoi<br> Vietnam
+                </div>
+                <div class="footer-parts  col-md-4 col-xl-2">
+                    Examples <br> Shop
+                    <br> License
+                </div>
+                <div class="footer-parts  col-md-4 col-xl-2">
+                    Contact<br> About<br> Privacy<br> Terms
+                </div>
+                <div class="footer-parts  col-md-4 col-xl-2">
+                    Download <br>Support<br> Documents
+                </div>
+                <div class="footer-parts  col-md-4 col-xl-2">
+                    Media<br> Blog <br>Forums
+                </div>
+                <div class="footer-parts  col-md-4 col-xl-2">
+                    Facebook<br> Google+ <br>Twitter
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load Bootstrap JS -->
+    <!--    <script type="text/javascript" src="bootstrap/js/jquery-3.2.1.min.js"></script>-->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="lang.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+
+    <script type="text/javascript">
+        var arrLang = {
+    'ro': {
+        'titleslide1': 'Inspirate Inspiratia ta',
+        'paragraphslide1': 'Lorem Ipsum este pur şi simplu o machetă pentru text a industriei tipografice. Lorem Ipsum a fost macheta standard a industriei încă din secolul al XVI-lea, când un tipograf anonim a luat o planşetă de litere şi le-a amestecat pentru a crea o carte demonstrativă pentru literele respective.',
+        'titleslide2': 'Tinyone functionalitati',
+        'paragraphslide2': 'Lorem Ipsum este pur şi simplu o machetă pentru text a industriei tipografice.',
+        'titleparagraph1': 'Fully Responsive',
+        'paragraph1': 'Lorem Ipsum este pur şi simplu o machetă pentru text a industriei tipografice. Lorem Ipsum a fost macheta standard a industriei încă din secolul al XVI-lea, când un tipograf anonim a luat o planşetă de litere şi le-a amestecat pentru a crea o carte demonstrativă pentru literele respective. Nu doar că a supravieţuit timp de cinci secole, dar şi a facut saltul în tipografia electronică practic neschimbată',
+        'titleparagraph1': 'HTML3 & CSS3',
+        'titleparagraph2': 'Font Awesome Icons',
+        'titleparagraph3': "Free to download",
+        'paragraphall3': "Lorem Ipsum este pur şi simplu o machetă pentru text a industriei tipografice. Lorem Ipsum a fost macheta standard a industriei încă din secolul al XVI-lea, când un tipograf anonim a luat o planşetă de litere şi le-a amestecat pentru a crea o carte demonstrativă pentru literele respective.",
+        'titleslide3': 'Ramai cu noi in legatura',
+        'paragraphslide3': "Lorem Ipsum este pur şi simplu o machetă pentru text a industriei tipografice."
+
+
+
+
+    },
+    'en': {
+        'titleslide1': 'Inspire your inspiration',
+        'paragraphslide1': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+        'titleslide2': 'Tinyone feutures',
+        'paragraphslide2': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        'titleparagraph1': 'Fully Responsive',
+        'paragraph1': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.',
+        'titleparagraph1': 'HTML3 & CSS3',
+        'titleparagraph2': 'Font Awesome Icons',
+        'titleparagraph3': 'Free to download',
+        'paragraphall3': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+        'titleslide3': 'Keep in touch with us',
+        'paragraphslide3': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+
+
+
+    }
+};
+
+$(function () {
+    $('.translate').click(function () {
+        var lang = $(this).attr('id');
+
+        $('.lang').each(function (index, element) {
+            $(this).text(arrLang[lang][$(this).attr('key')]);
+
+
+        });
+
+    });
+
+});
+
+    </script>
+</body>
+</html>
